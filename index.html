@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BrightSmile Reception Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  
+    <aside class="sidebar">
+        <h2 class="logo">BrightSmile<br><span>Reception</span></h2>
+
+        <nav>
+            <a class="active">📊 Dashboard</a>
+            <a>📅 Visit History</a>
+            <a>➕ Check-in / Register</a>
+            <a>⚙️ Settings</a>
+        </nav>
+
+        <button class="logout">🚪 Logout</button>
+    </aside>
+
+   
+    <main class="main">
+
+        
+        <div class="top-bar">
+    <div>
+        <p class="section-label">Reception Desk</p>
+        <h1>Overview</h1>
+    </div>
+
+    <div class="date">TODAY &nbsp; PKT 22/12/2025</div>
+</div>
+
+        
+        <div class="stats">
+            <div class="card">
+                <h2>Rs 0</h2>
+                <p>Check-up Revenue</p>
+            </div>
+            <div class="card">
+                <h2>Rs 0</h2>
+                <p>Procedure Revenue</p>
+            </div>
+            <div class="card">
+                <h2>Rs 0</h2>
+                <p>Checked-in Patients</p>
+            </div>
+            <div class="card">
+                <h2>Rs 0</h2>
+                <p>Future Scheduled</p>
+            </div>
+        </div>
+
+        
+        <section class="appointments">
+            <div class="appointments-header">
+                <h3>Today's Appointments (PKT)</h3>
+                <input type="text" placeholder="Search by MRN, Name, or Phone...">
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>TIME</th>
+                        <th>MRN</th>
+                        <th>PATIENT</th>
+                        <th>DOCTOR</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5" class="empty">
+                            No appointments found for today (2025-12-22).
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
